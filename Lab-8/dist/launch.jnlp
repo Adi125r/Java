@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="http://localhost:8080/WebStart/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>WebStart</title>
+        <vendor>adimo</vendor>
+        <homepage href=""/>
+        <description>WebStart</description>
+        <description kind="short">WebStart</description>
+        <icon href="pobrane.png" kind="default"/>
+        <offline-allowed/>
+    </information>
+    <update check="background"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="WebStart.jar" main="true"/>
+    </resources>
+    <application-desc main-class="lab8.Webapp">
+    </application-desc>
+</jnlp>
